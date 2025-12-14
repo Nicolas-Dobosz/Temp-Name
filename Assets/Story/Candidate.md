@@ -1,6 +1,6 @@
 # The Shuffling Tower
 
-Présentation, Histoire principale, Lore et Script
+Présentation, Histoire principale, Lore, Script, Gameplay
 
 ## Présentation :
 
