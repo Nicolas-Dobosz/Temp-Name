@@ -2,15 +2,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D))]
-
 public class PlayerMovements : MonoBehaviour
 {
     [SerializeField] InputActionAsset inputActions;
 
     InputAction moveAction;
-    Vector2 moveDirection;
-
     Rigidbody2D body;
+    Vector2 moveDirection;
 
     public float speed;
 
@@ -30,13 +28,9 @@ public class PlayerMovements : MonoBehaviour
         inputActions.FindActionMap("Player").Disable();
     }
 
-    void Update()
-    {
-        moveDirection = moveAction.ReadValue<Vector2>();
-    }
-
     void FixedUpdate()
     {
+        moveDirection = moveAction.ReadValue<Vector2>();
         body.linearVelocity = speed * Time.deltaTime * moveDirection;
     }
 }
