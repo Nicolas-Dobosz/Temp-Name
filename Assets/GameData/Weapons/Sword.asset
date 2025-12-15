@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WeaponData
   weaponName: Sword
   description: Your first sword
-  prefab: {fileID: 0}
+  prefab: {fileID: 5978053776761397360, guid: 904af6c289ea35546b2550dff095b45d, type: 3}
   baseDamage: 1
   attackCooldown: 1
   range: 1
