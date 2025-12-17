@@ -26,7 +26,7 @@ public class MonsterData : ScriptableObject
 }
 
 public enum MonsterWeaponType { Melee, Ranged }
-public enum MonsterStatusEffect { None, Poison, Freeze, Burn, Stun, Slow }
+public enum MonsterStatusEffect { None, Poison, Freeze, Burn, Stun, Slow, Silence }
 public enum MonsterSpeedType { VerySlow, Slow, Normal, Fast, VeryFast }
 public enum MonsterType { Week, Normal, Strong }
 public enum MonsterBiome { Forest, Desert }

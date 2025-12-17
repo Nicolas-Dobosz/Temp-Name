@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraMovements : MonoBehaviour
+public class CameraMovement : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] [Range(0f, 1f)] float cameraSmoothing;

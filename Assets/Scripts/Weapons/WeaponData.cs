@@ -22,6 +22,6 @@ public class WeaponData : ScriptableObject
 }
 
 public enum WeaponType { Melee, Ranged }
-public enum StatusEffect { None, Poison, Freeze, Burn, Stun, Slow }
+public enum StatusEffect { None, Poison, Freeze, Burn, Stun, Slow, Silence }
 public enum WeightType { VeryLight, Light, Normal, Heavy, VeryHeavy }
 public enum RarityType { None, Common, Rare, Epic, Mythic, Legendary, Boss }
